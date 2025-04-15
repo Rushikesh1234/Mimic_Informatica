@@ -1,4 +1,4 @@
-# Data Preprocessing Tool
+# Python-based ETL Tool (Mimicking Informatica)
 
 This is a Python-based tool for mimicking data preprocessing operations similar to Informatica. The tool includes basic ETL operations like Extract, Transform, and Load.
 
