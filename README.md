@@ -54,3 +54,6 @@ Launch the interactive UI:
 ```bash
 streamlit run run_gui_pipeline.py
 ```
+![streamlit gui](https://github.com/user-attachments/assets/0cb8a977-7979-4f46-a9b5-9d276a2d1c21)
+
+
