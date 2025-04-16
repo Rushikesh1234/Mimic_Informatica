@@ -5,3 +5,10 @@
 2025-04-16 10:40:33,285 - INFO - Data cleaned: Fill empty columns values with 0
 2025-04-16 10:40:33,287 - INFO - Data loaded successfully to data\processed_data.csv
 2025-04-16 10:40:33,288 - INFO - Data Extraction Process has been executed successfully
+2025-04-16 11:41:36,285 - INFO - Data Extraction Process is executing...
+2025-04-16 11:41:36,288 - INFO - Data Extraction Successful from data\raw_data.csv
+2025-04-16 11:41:36,290 - INFO - Data cleaned: whitespaces removed from column names
+2025-04-16 11:41:36,290 - INFO - Data cleaned: Convert column values to lower case
+2025-04-16 11:41:36,290 - INFO - Data cleaned: Fill empty columns values with 0
+2025-04-16 11:41:36,292 - INFO - Data loaded successfully to data\processed_data.csv
+2025-04-16 11:41:36,292 - INFO - Data Extraction Process has been executed successfully
