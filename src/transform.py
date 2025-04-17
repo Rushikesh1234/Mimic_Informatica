@@ -1,7 +1,6 @@
 from src.utils.log import log_info, log_error
 import pandas as pd
 
-
 Transformations = {}
 
 def register(name):
@@ -12,7 +11,7 @@ def register(name):
 
 
 @register("Filter Rows")
-def filter_rows(df, * expression: str):
+def filter_rows(df, *, expression: str):
     return df.query(expression)
 
 @register("Derived Column")
@@ -21,8 +20,8 @@ def derived_column(df, *, new_column: str, expression:str):
     return df
 
 @register("Aggregator")
-def aggregator(df, *, group_by: list, aggregation: dict):
-    return df.groupby(group_by, as_index=False).agg(aggregation)
+def aggregator(df, *, group_by: list, aggregations: dict):
+    return df.groupby(group_by, as_index=False).agg(aggregations)
 
 @register("Sort Rows")
 def sort_rows(df, *, by: list, ascending: bool = True):
